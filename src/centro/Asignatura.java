@@ -6,12 +6,12 @@ public class Asignatura {
 	
 	// Create and ArrayList to store all the Alumnos
 	
-	private static ArrayList<Alumno> alumnosAsignatura;
+	private ArrayList<Alumno> alumnosAsignatura;
 	
 	public Asignatura() {
 		
 		// Class maker of Asignatura
-		Asignatura.alumnosAsignatura = new ArrayList<>();
+		this.alumnosAsignatura = new ArrayList<Alumno>();
 	}
 	
 	public void addAlumnos(Alumno alumno) {

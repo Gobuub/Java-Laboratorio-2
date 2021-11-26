@@ -82,12 +82,12 @@ public class Alumno {
 		
 		//This method calculate the min mark of Alumno
 		
-		double notaMin = 0;
+		double notaMin = calificaciones[0];
 		int i = 0;
 		while (i <= calificaciones.length-1) {
 			
 			// In the loop compare the value of one mark to the next, and store the min value on notaMin
-			if (calificaciones[i]>notaMin) {
+			if (calificaciones[i]<notaMin) {
 				notaMin = calificaciones[i];
 			}
 			i++;

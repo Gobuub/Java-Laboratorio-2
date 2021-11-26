@@ -33,12 +33,16 @@ public class main {
 		System.out.println("La media de las notas de los alumnos son:");
 		System.out.println(programacion);
 		System.out.println(a.media());
+		System.out.println("La nota mínima es de: " + a.minNota());
 		System.out.println(a.getNombre());
 		System.out.println(b.media());
+		System.out.println("La nota mínima es de: " + b.minNota());
 		System.out.println(b.getNombre());
 		System.out.println(c.media());
+		System.out.println("La nota mínima es de: " + c.minNota());
 		System.out.println(c.getNombre());
 		System.out.println(d.media());
+		System.out.println("La nota mínima es de: " + d.minNota());
 		System.out.println(d.getNombre());
 		
 		// Call the method to know who is the Alumno with max mean in Asigntatura.
